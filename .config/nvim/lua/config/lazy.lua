@@ -20,6 +20,10 @@ require("lazy").setup({
       "nvim-neo-tree/neo-tree.nvim",
       enabled = false,
     },
+    {
+      "christoomey/vim-tmux-navigator",
+      lazy = false,
+    },
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import/override with your plugins

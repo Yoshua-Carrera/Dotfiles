@@ -119,3 +119,4 @@ JAVA_PATH=/opt/jdk1.8.0_202
 PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/algorithmic/.nvm/versions/node/v18.19.1/bin:/home/algorithmic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/bin
 JAVA_PATH=/opt/jre1.8.0_411
 PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/algorithmic/.nvm/versions/node/v18.19.1/bin:/home/algorithmic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/bin:/usr/java/jre1.6.0_24/bin/:/opt/jdk1.8.0_202/bin:/opt/jre1.8.0_411/bin:/opt/jre1.8.0_411/bin
+. "$HOME/.cargo/env"
