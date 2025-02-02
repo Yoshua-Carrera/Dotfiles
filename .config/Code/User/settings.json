@@ -1,3 +1,7 @@
 {
-    "workbench.colorTheme": "Catppuccin Macchiato"
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.sideBar.location": "right",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
