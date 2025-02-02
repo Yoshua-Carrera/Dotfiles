@@ -3,5 +3,6 @@
     "workbench.sideBar.location": "right",
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "git.confirmSync": false
 }
