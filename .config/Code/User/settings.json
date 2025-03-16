@@ -5,5 +5,18 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "git.confirmSync": false,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
