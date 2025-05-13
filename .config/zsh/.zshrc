@@ -134,9 +134,8 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 JAVA_PATH=/opt/jre1.8.0_411
-PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/algorithmic/.nvm/versions/node/v18.19.1/bin:/home/algorithmic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/bin:/opt/jre1.8.0_411/bin
+PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/algorithmic/.nvm/versions/node/v18.19.1/bin:/home/algorithmic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/bin:/opt/jre1.8.0_411/bin:/usr/local/go/bin
 
 
 # Load Angular CLI autocompletion.
