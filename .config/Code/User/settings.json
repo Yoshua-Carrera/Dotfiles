@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Alt Catppuccin Frappé",
     "workbench.sideBar.location": "right",
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -18,5 +17,7 @@
     "explorer.confirmDelete": false,
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "workbench.iconTheme": "catppuccin-frappe"
 }
