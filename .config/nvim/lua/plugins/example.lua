@@ -1,5 +1,15 @@
 if true then
   return {
+    {
+      "mfussenegger/nvim-dap",
+      dependencies = {
+        "leoluz/nvim-dap-go",
+      },
+      config = function()
+        require("dap-go").setup()
+      end,
+      ft = "go",
+    },
     { "nvim-neotest/nvim-nio" },
     {
       "nvim-neotest/neotest",
