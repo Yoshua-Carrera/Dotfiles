@@ -5,7 +5,6 @@
 local map = LazyVim.safe_keymap_set
 
 map({ "n" }, "<leader>fp", ":Explore<cr>", { desc = "Explore" })
--- map({ "n" }, "<leader>gg", ":!lazygit", { desc = "lazygit" })
 map({ "n" }, "<C-h>", "<cmd> TmuxNavigateLeft<CR>", { desc = "window left" })
 map({ "n" }, "<C-j>", "<cmd> TmuxNavigateUp<CR>", { desc = "window Up" })
 map({ "n" }, "<C-k>", "<cmd> TmuxNavigateDown<CR>", { desc = "window Down" })
@@ -15,3 +14,5 @@ map({ "n" }, "<leader>pp", function()
   local path = vim.fn.fnamemodify(vim.fn.expand("%"), ":.")
   vim.notify('Copied "' .. path .. '" to the clipboard!')
 end, { desc = "Copy Relative Path" })
+-- map({ "n" }, "<leader>p", { name = "Filepath commands" })
+require("which-key").add({ "<leader>p", group = "Filepath commands" })
