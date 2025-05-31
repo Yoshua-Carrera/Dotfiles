@@ -58,6 +58,16 @@ if true then
           file_ignore_patterns = { "node_modules", ".angular", ".git", "dist" },
         },
       },
+      config = function(_, opts)
+        require("telescope").setup(opts)
+
+        -- Set your keymap here
+        vim.keymap.set("n", "<leader><leader>", function()
+          require("telescope.builtin").find_files({
+            cwd = vim.fn.getcwd(),
+          })
+        end, { desc = "Telescope: (Root Dir)" })
+      end,
     },
     {
       "nvim-neo-tree/neo-tree.nvim",
