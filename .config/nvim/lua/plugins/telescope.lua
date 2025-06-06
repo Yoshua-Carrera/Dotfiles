@@ -14,7 +14,6 @@ return {
       },
       sorting_strategy = "ascending",
       winblend = 0,
-      file_ignore_patterns = { ".angular", ".git", "dist" },
     },
   },
   config = function()
