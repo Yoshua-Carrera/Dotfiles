@@ -19,9 +19,17 @@ return {
   },
   config = function()
     local builtin = require("telescope.builtin")
+    vim.keymap.set("n", "<leader><leader>", function()
+      builtin.find_files({
+        cwd = vim.fn.cwd(),
+      })
+    end, { desc = "Telescope (Root Dir)" })
+    vim.keymap.set("n", "<leader><leader>sg", function()
+      builtin.live_grep({
+        cwd = vim.fn.cwd(),
+      })
+    end, { desc = "live Grep (Root Dir)" })
     local pickers_to_patch = {
-      "find_files",
-      "live_grep",
       "grep_string",
       "buffers",
       "oldfiles",
@@ -52,14 +60,4 @@ return {
       end
     end
   end,
-  -- config = function(_, opts)
-  --   require("telescope").setup(opts)
-  --
-  --   -- Set your keymap here
-  --   vim.keymap.set("n", "<leader><leader>", function()
-  --     require("telescope.builtin").find_files({
-  --       cwd = vim.fn.getcwd(),
-  --     })
-  --   end, { desc = "Telescope: (Root Dir)" })
-  -- end,
 }
