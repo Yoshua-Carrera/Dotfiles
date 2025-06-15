@@ -6,8 +6,8 @@ local map = LazyVim.safe_keymap_set
 
 map({ "n" }, "<leader>fp", ":Explore<cr>", { desc = "Explore" })
 map({ "n" }, "<C-h>", "<cmd> TmuxNavigateLeft<CR>", { desc = "window left" })
-map({ "n" }, "<C-j>", "<cmd> TmuxNavigateUp<CR>", { desc = "window Up" })
-map({ "n" }, "<C-k>", "<cmd> TmuxNavigateDown<CR>", { desc = "window Down" })
+map({ "n" }, "<C-k>", "<cmd> TmuxNavigateUp<CR>", { desc = "window Up" })
+map({ "n" }, "<C-j>", "<cmd> TmuxNavigateDown<CR>", { desc = "window Down" })
 map({ "n" }, "<C-l>", "<cmd> TmuxNavigateRight<CR>", { desc = "window Right" })
 map({ "n" }, "<leader>pp", function()
   vim.api.nvim_call_function("setreg", { "+", vim.fn.fnamemodify(vim.fn.expand("%"), ":.") })
