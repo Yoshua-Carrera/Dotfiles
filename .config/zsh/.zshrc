@@ -141,3 +141,6 @@ PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/algori
 # Load Angular CLI autocompletion.
 source <(ng completion script)
 source ~/.cargo/env
+
+# Load in Github key
+# eval $(keychain --quiet --eval ~/.ssh/github/okaeri)
