@@ -28,7 +28,6 @@ return {
         hl(0, "NormalNC", { bg = "NONE" })
         hl(0, "CursorLine", { bg = "NONE" })
         hl(0, "Pmenu", { bg = "NONE" })
-        hl(0, "PmenuSel", { bg = "NONE" })
         hl(0, "VertSplit", { bg = "NONE" })
       end,
     })
