@@ -137,6 +137,22 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 JAVA_PATH=/opt/jre1.8.0_411
 PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/algorithmic/.nvm/versions/node/v18.19.1/bin:/home/algorithmic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/bin:/opt/jre1.8.0_411/bin:/usr/local/go/bin
 
+## Arch support for brew migration ##
+# Attempt to export Node path, suppress errors
+if command -v node >/dev/null 2>&1; then
+  export PATH="$HOME/.nvm/versions/node/$(node --version)/bin:$PATH"
+fi
+
+# Try to source zsh-syntax-highlighting if the file exists
+if [[ -f /home/depaysement/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
+  source /home/depaysement/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
+
+# Try to source nvm init if the file exists
+if [[ -f /usr/share/nvm/init-nvm.sh ]]; then
+  source /usr/share/nvm/init-nvm.sh
+fi
+
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
@@ -144,7 +160,5 @@ source ~/.cargo/env
 
 # Load in Github key
 # eval $(keychain --quiet --eval ~/.ssh/github/okaeri)
-source /home/depaysement/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/nvm/init-nvm.sh
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
