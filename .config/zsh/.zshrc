@@ -144,3 +144,7 @@ source ~/.cargo/env
 
 # Load in Github key
 # eval $(keychain --quiet --eval ~/.ssh/github/okaeri)
+source /home/depaysement/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/nvm/init-nvm.sh
+# To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
+[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
