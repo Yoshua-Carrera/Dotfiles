@@ -162,3 +162,8 @@ source ~/.cargo/env
 # eval $(keychain --quiet --eval ~/.ssh/github/okaeri)
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+
+
+# pactl set-default-sink alsa_output.pci-0000_00_1f.3.analog-stereo
+# pactl set-default-sink alsa_output.pci-0000_00_1f.3.hdmi-stereo
+
