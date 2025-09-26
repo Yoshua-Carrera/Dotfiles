@@ -52,7 +52,10 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath'
 zstyle ':fzf-tab:*' switch-group '<' '>'
 
 alias ls='ls =color'
-alias vaipyreapp='cd ~/code/VaiPyreLive'
+alias git-co='sh ~/.config/zsh/scripts/fuzzy-co.sh'
+alias dot='cd ~/.dotfiles'
+alias flux-ui='cd ~/code/flux-ui'
+
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
 
