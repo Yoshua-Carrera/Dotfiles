@@ -55,6 +55,7 @@ alias ls='ls =color'
 alias git-co='sh ~/.config/zsh/scripts/fuzzy-co.sh'
 alias dot='cd ~/.dotfiles'
 alias flux-ui='cd ~/code/flux-ui'
+alias portfolio='cd ~/code/netlify-portfolio'
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"

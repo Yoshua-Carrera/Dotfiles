@@ -10,6 +10,7 @@ return {
         typescript = { "prettier" },
         javascript = { "prettier" },
         html = { "prettier" },
+        htmlangular = { "prettier" },
         go = { "gofumpt" },
         markdown = { "prettier" },
         css = { "prettier" },
