@@ -5,3 +5,4 @@ pulse
 systemd
 _logs
 .zcompdump-*
+.zsh_history
