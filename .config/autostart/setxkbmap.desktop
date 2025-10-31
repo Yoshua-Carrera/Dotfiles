@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=bash -c "sleep 5 && setxkbmap -option caps:escape"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Caps to Escape
+Comment=Remap Caps Lock to Escape on startup

@@ -58,6 +58,9 @@ alias pbcopy='xclip -selection clipboard'
 alias flux-ui='cd ~/code/flux-ui'
 alias portfolio='cd ~/code/netlify-portfolio'
 
+# Remap caps lock
+setxkbmap -option caps:escape
+
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
 
