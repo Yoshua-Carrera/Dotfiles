@@ -138,7 +138,6 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# eval "$(fzf --zsh)"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
@@ -169,7 +168,13 @@ source ~/.cargo/env
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
-
+# export "YAZI_CONFIG_HOME=~/.config/yazi"
 # pactl set-default-sink alsa_output.pci-0000_00_1f.3.analog-stereo
 # pactl set-default-sink alsa_output.pci-0000_00_1f.3.hdmi-stereo
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export FZF_DEFAULT_OPTS="--preview 'batcat --color=always {} || cat {}'"
+
+eval "$(fzf --zsh)"
 
