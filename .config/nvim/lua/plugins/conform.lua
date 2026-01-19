@@ -9,6 +9,7 @@ return {
         json = { "prettier" },
         typescript = { "prettier" },
         javascript = { "prettier" },
+        typescriptreact = { "prettier" },
         html = { "prettier" },
         htmlangular = { "prettier" },
         go = { "gofumpt" },
