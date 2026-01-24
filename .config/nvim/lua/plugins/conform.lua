@@ -3,6 +3,7 @@ return {
   opts = function()
     return {
       formatters_by_ft = {
+        c = { "clang-format" },
         lua = { "stylua" },
         fish = { "fish_indent" },
         sh = { "shfmt" },
@@ -12,11 +13,11 @@ return {
         typescriptreact = { "prettier" },
         html = { "prettier" },
         htmlangular = { "prettier" },
-        go = { "gofumpt" },
+        go = { "gofumpt", "goimports", "golines" },
         markdown = { "prettier" },
         css = { "prettier" },
         scss = { "prettier" },
-        python = { "black" },
+        python = { "ruff", "black" },
       },
     }
   end,
