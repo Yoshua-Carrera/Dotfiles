@@ -58,6 +58,8 @@ alias bat='batcat'
 alias pbcopy='xclip -selection clipboard'
 alias flux-ui='cd ~/code/flux-ui'
 alias portfolio='cd ~/code/netlify-portfolio'
+alias n='nvim'
+alias lg='lazygit'
 
 # Remap caps lock
 setxkbmap -option caps:escape
