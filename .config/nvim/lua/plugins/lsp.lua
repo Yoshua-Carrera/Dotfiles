@@ -129,5 +129,12 @@ return {
       capabilities = capabilities,
       on_attach = on_attach,
     })
+
+    -- graphql
+    lspconfig.graphql.setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+      filetypes = { "graphql", "typescriptreact", "javascriptreact", "gql", "*.gql" },
+    })
   end,
 }

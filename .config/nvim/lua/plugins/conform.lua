@@ -18,6 +18,7 @@ return {
         css = { "prettier" },
         scss = { "prettier" },
         python = { "ruff", "black" },
+        graphql = { "prettier" },
       },
     }
   end,
