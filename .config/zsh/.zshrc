@@ -51,18 +51,6 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath'
 zstyle ':fzf-tab:*' switch-group '<' '>'
 
-alias ls='ls =color'
-alias git-co='sh ~/.config/zsh/scripts/fuzzy-co.sh'
-alias dot='cd ~/.dotfiles'
-alias bat='batcat'
-alias pbcopy='xclip -selection clipboard'
-alias flux-ui='cd ~/code/flux-ui'
-alias portfolio='cd ~/code/netlify-portfolio'
-alias n='nvim'
-alias lg='lazygit'
-alias cd='z'
-
-eval "$(zoxide init zsh)"
 
 # Remap caps lock
 setxkbmap -option caps:escape
@@ -132,14 +120,6 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -151,6 +131,8 @@ JAVA_PATH=/opt/jre1.8.0_411
 PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/algorithmic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/bin:/opt/jre1.8.0_411/bin:/usr/local/go/bin:/nix/store/yk6m1xl82y7nxna21yf9b7lrskrajaqa-nix-2.33.3/bin
 export PATH="$HOME/go/bin:$PATH"
 export PATH="/home/linuxbrew/.linuxbrew/opt/clang-format/bin:$PATH"
+eval "$(zoxide init zsh)"
+
 
 # Try to source zsh-syntax-highlighting if the file exists
 if [[ -f /home/depaysement/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
@@ -186,3 +168,22 @@ export FZF_DEFAULT_OPTS="--preview 'batcat --color=always {} || cat {}'"
 
 eval "$(fzf --zsh)"
 
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias ls='ls =color'
+alias git-co='sh ~/.config/zsh/scripts/fuzzy-co.sh'
+alias dot='cd ~/.dotfiles'
+alias bat='batcat'
+alias pbcopy='xclip -selection clipboard'
+alias flux-ui='cd ~/code/flux-ui'
+alias portfolio='cd ~/code/netlify-portfolio'
+alias n='nvim'
+alias lg='lazygit'
+alias cd='z'
