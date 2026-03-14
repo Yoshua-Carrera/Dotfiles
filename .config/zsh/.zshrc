@@ -148,7 +148,7 @@ source $ZSH/oh-my-zsh.sh
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 JAVA_PATH=/opt/jre1.8.0_411
-PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/algorithmic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/bin:/opt/jre1.8.0_411/bin:/usr/local/go/bin
+PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/algorithmic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/bin:/opt/jre1.8.0_411/bin:/usr/local/go/bin:/nix/store/yk6m1xl82y7nxna21yf9b7lrskrajaqa-nix-2.33.3/bin
 export PATH="$HOME/go/bin:$PATH"
 export PATH="/home/linuxbrew/.linuxbrew/opt/clang-format/bin:$PATH"
 

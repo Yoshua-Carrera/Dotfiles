@@ -2,6 +2,8 @@
 
 These are my personal dotfiles for my Linux setup. They are managed using `stow`.
 
+_This dotfiles are now deprecated in favor of my nixos configuration_
+
 ![placeholder](https://user-images.githubusercontent.com/1234567/234567890-placeholder.png)
 
 _(Feel free to replace the placeholder image with a screenshot of your desktop)_
