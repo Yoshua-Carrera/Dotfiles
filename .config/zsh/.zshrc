@@ -177,7 +177,7 @@ eval "$(fzf --zsh)"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias ls='ls =color'
+alias ls='ls --color=always'
 alias git-co='sh ~/.config/zsh/scripts/fuzzy-co.sh'
 alias dot='cd ~/.dotfiles'
 alias bat='batcat'
