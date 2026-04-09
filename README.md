@@ -1,8 +1,9 @@
 # My Dotfiles
 
 These are my personal dotfiles for my Linux setup. They are managed using `stow`.
+To learn how to use GNU Stow please refer to their [DOCS](https://www.gnu.org/software/stow/), you can also refer to this [youtube video](https://www.youtube.com/watch?v=y6XCebnB9gs)
 
-_This dotfiles are now deprecated in favor of my [nixos](https://github.com/Yoshua-Carrera/nixos-dotfiles) ([Mirror](https://github.com/depaysement-jikan/nixos-depaysement)) configuration_
+_This dotfiles are now deprecated in favor of my [nixos configuration](https://github.com/Yoshua-Carrera/nixos-dotfiles) (You can also check the [Mirror](https://github.com/depaysement-jikan/nixos-depaysement))_
 
 _(Feel free to replace the placeholder image with a screenshot of your desktop)_
 
